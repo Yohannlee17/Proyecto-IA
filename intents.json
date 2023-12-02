@@ -1,0 +1,203 @@
+{"intents":[
+    {
+        "tag": "saludo",
+        "patterns": ["hola", "qué tal", "cómo estás", "saludos","buen dia"],
+        "responses": ["Hola!", "Buenos días!", "¿Cómo estás?"]
+    },
+    {
+        "tag": "nombre",
+        "patterns": ["cómo es tu nombre", "cómo te llamas"],
+        "responses": ["Me llamo Juan Pablo", "Mi nombre es Juan Pablo"]
+    },
+    {
+        "tag": "¿Cómo estás?",
+        "patterns": ["Muy bien y tu", "Bien gracias"],
+        "responses": ["Me alegro que estés bein, en que puedo ayudarte?", "Mucho gusto, en que puedo ayudarte"]
+    },
+
+    {
+        "tag": "Tos",
+        "patterns": ["Garganta seca", "picazon","congestion nazal", "fiebre"],
+        "responses": ["Probablemente tengs tos", "has pescado un resfriado", "Quizas solo sea un resfriado"]
+    },
+    {
+        "tag": "Gripe",
+        "patterns": ["tengo fiebre y tos", "me siento cansado y con dolor de cabeza", "estoy estornudando mucho"],
+        "responses": ["Podrías tener gripe. Te recomendaría descansar y mantenerte hidratado", "Los síntomas parecen de gripe. Si persisten, consulta a un médico"]
+    },
+    
+    {
+        "tag": "Dolor de cabeza",
+        "patterns": ["me duele la cabeza", "tengo un fuerte dolor de cabeza", "mi cabeza me está matando"],
+        "responses": ["Podría ser un dolor de cabeza temporal. Intenta descansar en un lugar tranquilo", "Si el dolor de cabeza es muy fuerte o persistente, sería bueno que consultes a un médico"]
+    },
+    
+    {
+        "tag": "Alergias",
+        "patterns": ["tengo la nariz congestionada", "mis ojos están llorosos", "no paro de estornudar"],
+        "responses": ["Parecen síntomas de alergia. ¿Has estado expuesto a algo diferente recientemente?", "Podrían ser alergias. Intenta identificar si hay algo nuevo en tu entorno que las esté provocando"]
+    },
+    
+    {
+        "tag": "Ansiedad",
+        "patterns": ["me siento nervioso", "tengo ansiedad", "no puedo dejar de preocuparme"],
+        "responses": ["La ansiedad es algo que todos experimentamos. Prueba técnicas de relajación o ejercicio", "Si la ansiedad interfiere con tu vida diaria, podría ser útil hablar con un profesional"]
+    },
+    
+    {
+        "tag": "Insomnio",
+        "patterns": ["no puedo dormir", "tengo problemas para dormir", "me despierto en medio de la noche"],
+        "responses": ["El insomnio puede deberse a estrés o hábitos de sueño. Intenta relajarte antes de dormir", "Si el insomnio persiste, considera hablar con un médico o un especialista en sueño"]
+    },
+    {
+        "tag": "Asma",
+        "patterns": ["tengo dificultad para respirar", "me silba el pecho cuando respiro", "no puedo tomar aire completamente"],
+        "responses": [
+            "Los síntomas que describes podrían estar relacionados con el asma. ¿Has sido diagnosticado con asma antes?", 
+            "Si tienes dificultades para respirar, es importante que consultes a un médico lo antes posible.", 
+            "El silbido al respirar y la dificultad para tomar aire son síntomas comunes del asma. Considera ver a un médico."
+        ]
+    },
+    
+    {
+        "tag": "Acidez",
+        "patterns": ["siento ardor en el estómago", "tengo un dolor quemante en el pecho", "después de comer siento ardor"],
+        "responses": [
+            "Podría ser acidez. Intenta evitar comidas picantes o muy condimentadas.", 
+            "La acidez estomacal es común y puede ser causada por ciertos alimentos. Si persiste, consulta a un médico.", 
+            "Los síntomas que describes parecen ser acidez. Prueba con antiácidos y si no mejora, visita a un médico."
+        ]
+    },
+    
+    {
+        "tag": "Deshidratación",
+        "patterns": ["tengo mucha sed", "mi piel está seca", "me siento débil y con sed"],
+        "responses": [
+            "Es importante mantenerse hidratado. Bebe agua regularmente y evita el exceso de calor.", 
+            "La sed excesiva y la piel seca pueden ser signos de deshidratación. Asegúrate de beber suficientes líquidos.", 
+            "Si te sientes débil y con mucha sed, podrías estar deshidratado. Bebe agua y si los síntomas persisten, consulta a un médico."
+        ]
+    },
+    
+    {
+        "tag": "Dolor de espalda",
+        "patterns": ["me duele la espalda", "tengo dolor en la parte baja de la espalda", "siento tensión en la espalda"],
+        "responses": [
+            "El dolor de espalda puede deberse a muchas causas. Intenta relajar la zona y mantén una buena postura.", 
+            "Si el dolor de espalda es severo o persistente, es recomendable que consultes a un médico.", 
+            "La tensión y el dolor en la espalda a menudo se deben a malas posturas o esfuerzo. Considera ejercicios de estiramiento y visita a un médico si es necesario."
+        ]
+    },
+    
+    {
+        "tag": "Migraña",
+        "patterns": ["tengo un dolor de cabeza muy fuerte", "me duele la cabeza de un solo lado", "la luz y el sonido me molestan"],
+        "responses": [
+            "Los síntomas que mencionas podrían indicar una migraña. Intenta descansar en un lugar oscuro y tranquilo.", 
+            "Si experimentas dolor de cabeza intenso en un solo lado, podría ser migraña. Consulta a un médico si esto es recurrente.", 
+            "La sensibilidad a la luz y al sonido, acompañada de un fuerte dolor de cabeza, suele ser característico de la migraña. Considera hablar con un especialista."
+        ]
+    },
+    {
+        "tag": "Artritis",
+        "patterns": ["tengo dolor en las articulaciones", "mis rodillas duelen al caminar", "mis manos se sienten rígidas"],
+        "responses": [
+            "El dolor y la rigidez en las articulaciones pueden ser signos de artritis. Sería bueno consultar a un reumatólogo.",
+            "La artritis suele causar dolor en articulaciones como las rodillas y manos. Te recomiendo visitar a un médico para un diagnóstico adecuado.",
+            "Si el dolor en las articulaciones es constante o empeora, podría ser artritis. Un especialista puede ofrecerte el mejor consejo."
+        ]
+    },
+    
+    {
+        "tag": "Diabetes",
+        "patterns": ["tengo sed todo el tiempo", "me siento cansado frecuentemente", "estoy orinando más de lo normal"],
+        "responses": [
+            "Sed constante, fatiga y orinar frecuentemente son síntomas comunes de diabetes. Considera hacerte un chequeo médico.",
+            "Estos síntomas pueden estar asociados con la diabetes. Sería prudente consultar a un médico y realizar un análisis de sangre.",
+            "La diabetes puede manifestarse con sed excesiva y fatiga. Es importante que te realices pruebas médicas para confirmar."
+        ]
+    },
+    
+    {
+        "tag": "Hipertensión",
+        "patterns": ["tengo dolores de cabeza regulares", "me siento mareado a menudo", "tengo palpitaciones en el pecho"],
+        "responses": [
+            "Dolores de cabeza, mareos y palpitaciones pueden ser signos de hipertensión. Te aconsejo que te tomes la presión arterial.",
+            "Si estos síntomas son frecuentes, podrías estar experimentando hipertensión. Visita a un médico para un control de presión arterial.",
+            "La hipertensión es conocida como el 'asesino silencioso'. Es importante hacerse chequeos regulares de la presión arterial."
+        ]
+    },
+    
+    {
+        "tag": "Anemia",
+        "patterns": ["me siento débil y cansado", "me veo pálido", "me mareo fácilmente"],
+        "responses": [
+            "La debilidad, palidez y mareos pueden ser síntomas de anemia. Un análisis de sangre puede confirmarlo.",
+            "Parece que podrías tener anemia. Te recomendaría hablar con un médico y quizás aumentar tu ingesta de hierro.",
+            "Si estos síntomas son persistentes, la anemia podría ser una causa. Consulta a un médico para un diagnóstico adecuado."
+        ]
+    },
+    
+    {
+        "tag": "Gastritis",
+        "patterns": ["tengo dolor en la parte alta del abdomen", "me arde el estómago después de comer", "siento náuseas después de las comidas"],
+        "responses": [
+            "El ardor de estómago y las náuseas pueden ser signos de gastritis. Intenta evitar alimentos picantes y ácidos.",
+            "La gastritis puede causar dolor en el abdomen y malestar después de comer. Te recomiendo consultar a un gastroenterólogo.",
+            "Si experimentas estos síntomas con frecuencia, especialmente el ardor estomacal, podrías tener gastritis. Un médico puede ayudarte."
+        ]
+    },
+    {
+        "tag": "Apendicitis",
+        "patterns": ["tengo un dolor severo en la parte baja del abdomen", "siento un dolor fuerte en el lado derecho del abdomen", "mi abdomen está hinchado y duele"],
+        "responses": [
+            "El dolor intenso en la parte baja del abdomen podría ser un signo de apendicitis. Es importante que busques atención médica de inmediato.",
+            "La apendicitis es seria y requiere atención médica urgente. Si el dolor es agudo y se concentra en el lado derecho, ve al hospital lo antes posible.",
+            "Un dolor agudo en el abdomen, especialmente en el lado derecho, puede ser apendicitis. Deberías ir a urgencias ahora mismo."
+        ]
+    },
+    
+    {
+        "tag": "Bronquitis",
+        "patterns": ["tengo una tos que no desaparece", "siento presión en el pecho y tos", "mi tos produce mucosidad"],
+        "responses": [
+            "La tos persistente con mucosidad puede ser un signo de bronquitis. Sería bueno que consultes a un médico.",
+            "Si tienes tos con sensación de presión en el pecho, podría ser bronquitis. Considera hacer una cita con tu médico.",
+            "Una tos prolongada que produce mucosidad puede indicar bronquitis. Te aconsejo que busques asesoramiento médico."
+        ]
+    },
+    
+    {
+        "tag": "Conjuntivitis",
+        "patterns": ["mis ojos están rojos y pican", "tengo secreción en los ojos", "mis ojos se sienten irritados y lagrimean"],
+        "responses": [
+            "Los ojos rojos, picazón y secreción pueden ser síntomas de conjuntivitis. Evita tocarte los ojos y consulta a un oftalmólogo.",
+            "Parece que podrías tener conjuntivitis. Es importante mantener una buena higiene ocular y buscar atención médica.",
+            "La irritación ocular con enrojecimiento y lagrimeo puede ser conjuntivitis. Te recomiendo que veas a un especialista."
+        ]
+    },
+    
+    {
+        "tag": "Osteoporosis",
+        "patterns": ["mis huesos se fracturan fácilmente", "he perdido estatura con los años", "siento dolor en los huesos y debilidad"],
+        "responses": [
+            "La fragilidad ósea y la pérdida de altura pueden ser signos de osteoporosis. Sería bueno realizar una densitometría ósea.",
+            "Si tus huesos se fracturan fácilmente, podrías estar en riesgo de osteoporosis. Consulta a un médico para una evaluación.",
+            "El dolor óseo y la debilidad, especialmente si has tenido fracturas, podrían indicar osteoporosis. Te aconsejo que hables con un médico."
+        ]
+    },
+    
+    {
+        "tag": "Cistitis",
+        "patterns": ["siento dolor al orinar", "tengo que ir al baño muy seguido", "mi orina tiene un color extraño"],
+        "responses": [
+            "El dolor al orinar y la frecuencia pueden ser síntomas de cistitis. Bebe mucha agua y considera visitar a un médico.",
+            "Si experimentas molestias al orinar y cambios en el color de la orina, podría ser una infección urinaria como la cistitis.",
+            "Los síntomas que describes sugieren una posible cistitis. Es importante que consultes a un médico para un tratamiento adecuado."
+        ]
+    }
+        
+    
+]
+
+}
